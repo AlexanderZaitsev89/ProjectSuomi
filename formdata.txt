@@ -1,0 +1,6 @@
+{
+  "topic": "Web programming",
+  "date": "30.05.2015",
+  "madeby": "Alex Z",
+  "news": "I hope to finish this course))"
+}

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Alexander Zaytsev">
+		<title>Web Programming  exercise</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="jquery-2.1.1.min.js"></script>
+		<script src="jquery.mobile-1.4.5.min.js"></script>
+		<script src="mainJS.js"></script>
+		<link href="css/mapAPP.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div data-role="page">
+			<div data-role="header" data-position="inline">
+				<h1>Amazing App</h1>
+
+			</div>
+			<div role="main" class="ui-content">
+				<p>This amazing app would challenge your knowledge about Finland! If you are smart enough then dare to push the image below ! Good luck! </p>
+					<img id="mainPageImage" src="images2/suomi.jpg" alt="Map of Finland">
+				<button id="btn" type="button">Start</button>
+			</div>
+			<div data-role="collapsible" data-theme="a" data-content-theme="b">
+				<h4>Description</h4>
+				<p>When you run the application, you would see a map of Finland.Above the map there  would 
+				be a question that you should answer and also a number of right answers will be displayed there.
+				All the questions are connected with the geographical location of the towns.In order to answer- click
+				on the mmap where you think town is situated.After you click a red dot would appear-this is location
+				that you clicked and a black area-this is the actual location.When you answer a question click NEXT button.
+				Wish you luck!</p>
+			</div>
+			<div data-role="collapsible"  data-theme="a" data-content-theme="b">
+				<h4>About author</h4>
+				<p>Contact Information:Finland Espoo<br>
+				mail: alexander_zaitsev89@mail.ru<br>
+				occupation:Metropolia student<br>
+				</p>
+			</div>
+			<div data-role="collapsible" data-theme="a" data-content-theme="b">
+				<h4>Latest news</h4>
+				<p id="topic">No news currently</p>
+				<p id="date">No news currently</p>
+				<p id="author">No news currently</p>
+				<p id="newsSection">No news currently</p>
+			</div>
+			<div data-role="collapsible" data-theme="a" data-content-theme="b">
+				<h4>Adds</h4>
+				<div data-role="navbar">
+					<ul>
+						<li><img id="addImage" src="images2/Metropolia_logo.jpg" alt="Metropolia UAS"></li>
+						<li><img id="addImage" src="images2/w3c.png" alt="w3c school"></li>
+					</ul>
+					<ul>
+						<li><img id="addImage" src="images2/jquerymobile.gif" alt="w3c school"></li>
+						<li><img id="addImage" src="images2/youradd.jpg" alt="w3c school"></li>
+					</ul>					
+				</div><!-- /navbar -->
+			</div>
+			<div data-role="footer">
+				<h4>Made by Aley Z</h4>
+				
+			</div>
+		</div>
+		
+
+
+	</body>
+</html>

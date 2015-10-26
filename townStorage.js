@@ -1,0 +1,3 @@
+	var relPositTownX=[44.9,24.6,83.2,50.3,70.7,20.9,64.2,50.5,65.1,39.6,57.2,84.6,60.3,19.5];//Relative position of x coordinate of the town on this image
+	 var relPositTownY=[93.7,90.8,70.9,49.3,85.7,67.1,33.6,86.1,69.8,41.5,28.7,65.1,53.7,41.2];//Relative position of y coordinate of the town on this image
+	 var townName=["Helsinki","Turku","Joensuu","Oulu","Lappeenranta","Vaasa","Kemijarvi","Lahti","Kuopio","Tonio","Sodankyla","Lieksa","Vaala","Boden"];//Names of the town

@@ -1,0 +1,30 @@
+#mainPageImage {
+    margin-left: 30%;
+    margin-right: 10%;
+	width: 40%;
+	height: 60%;
+    background-color: lightblue;
+}
+#addImage {
+    margin-left: 30%;
+    margin-right: 10%;
+	width: 40%;
+	height: 60%;
+    background-color: lightblue;
+}
+#victoryPageImage{
+	margin-bottom: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+	width: 90%;
+	height: 90%;
+    background-color: lightblue;
+}
+#loserPageImage{
+	margin-bottom: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+	width: 90%;
+	height: 90%;
+    background-color: lightblue;
+}
